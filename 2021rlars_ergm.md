@@ -9,9 +9,9 @@ realizado en San Salvador de Jujuy (Argentina) por [Alejandro
 Espinosa-Rada](https://github.com/anespinosa) ([Social Networks
 Lab](https://sn.ethz.ch), ETH Zürich, Suiza).
 
-Antes de partir el tutorial, instalar y abrir los siguientes paquetes de
-`R` (todos ellos parte de la iniciativa
-[statnet](https://github.com/statnet)).
+Antes de partir el tutorial, por favor instalar y abrir los siguientes
+paquetes de `R` (todos ellos parte de la iniciativa
+[statnet](https://github.com/statnet)):
 
 ``` r
 par(mfrow=c(1,1))
@@ -179,6 +179,8 @@ par(mfrow = c(1, 1))
 data("informalhelp_mapuche")
 ?informalhelp_mapuche
 ```
+
+    ## starting httpd help server ... done
 
 Datos: red direccionada y categórica, en donde solo utilizaremos el
 valor *Ayuda informal: al menos una ayuda observada durante el trabajo
